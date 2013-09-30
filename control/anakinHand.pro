@@ -25,8 +25,9 @@ SOURCES += main.cpp\
     calibrator.cpp \
     translator.cpp \
     handInterface.cpp \
-    kalmanFilter.cpp
-    actionPerfomer.cpp
+	actionPerfomer.cpp \
+    kalmanFilter.cpp \
+    userFileSaver.cpp
 
 HEADERS  += mainWindow.h \
 	actionSaver.h \
@@ -42,7 +43,9 @@ HEADERS  += mainWindow.h \
     handInterface.h \
     consts.h \
     degreeOfFreedom.h \
-    kalmanFilter.h
-    actionPerfomer.h
+	actionPerfomer.h \
+    kalmanFilter.h \
+    userFileStructure.h \
+    userFileSaver.h
 
 FORMS    += mainWindow.ui
